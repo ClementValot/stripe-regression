@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
   "dependencies": {
     "stripe1114": "npm:stripe@11.14.0",
     "stripe1117": "npm:stripe@11.17.0"
